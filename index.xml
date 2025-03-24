@@ -9,11 +9,14 @@ Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in sli
 &lt;li>&lt;strong>Upload&lt;/strong> an existing slide deck to &lt;code>static/&lt;/code> and link using &lt;code>url_slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
 &lt;li>&lt;strong>Embed&lt;/strong> your slides (e.g. Google Slides) or presentation video on this page using &lt;a href="https://docs.hugoblox.com/reference/markdown/" target="_blank" rel="noopener">shortcodes&lt;/a>.&lt;/li>
 &lt;/ul>
-&lt;p>Further event details, including &lt;a href="https://docs.hugoblox.com/reference/markdown/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>无线打印教程</title><link>https://www.linwz.com/resources/print/</link><pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate><guid>https://www.linwz.com/resources/print/</guid><description>&lt;p>背景知识：打印机目前位于洁琼楼220，打印前提前跟老师说明。&lt;/p>
+&lt;p>Further event details, including &lt;a href="https://docs.hugoblox.com/reference/markdown/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>远程网络打印教程</title><link>https://www.linwz.com/resources/print/</link><pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate><guid>https://www.linwz.com/resources/print/</guid><description>&lt;p>背景知识：打印机目前位于洁琼楼220，打印前提前跟老师说明。&lt;/p>
 &lt;h2 id="使用前必读">使用前必读&lt;/h2>
 &lt;ul>
 &lt;li>
-&lt;p>打印机出问题就不要使用，&lt;strong>不要&lt;/strong>试图维修、切断电源、重启、拔插任何线等任何操作。&lt;/p>
+&lt;p>使用互联网连接，即能打开百度的网络，不要求连接办公室网络、学校网络等。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>打印机出问题就不要使用，&lt;strong>不要&lt;/strong>尝试维修、切断电源、重启、拔插任何线等任何操作。&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>本文为使用window 11电脑进行打印机无线连接步骤，只允许无线连接使用，&lt;strong>不允许&lt;/strong>拔下usb连接线连到自己的电脑上等其他操作。&lt;/p>
@@ -543,7 +546,7 @@ console.log('code block');
 &lt;p>Wowchemy supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> format for interactive charts.&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>line-chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-381275964" class="chart">&lt;/div>
+&lt;div id="chart-485296371" class="chart">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -552,7 +555,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./line-chart.json", function(chart) {
-Plotly.plot('chart-381275964', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-485296371', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
