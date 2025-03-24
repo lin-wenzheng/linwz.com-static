@@ -315,6 +315,11 @@ Busch, C. A., Wiesenthal, N. J., Gin, L. E., &amp; Cooper, K. M. (2024). Behind 
 &lt;li>总的来说，不推荐主要使用上述两个网址。但是当主服务器出现问题，又急需使用网盘和jatos的话，可以临时使用。&lt;/li>
 &lt;li>暂时关闭该容灾备份，主要服务迁移完成后开启&lt;/li>
 &lt;/ul>
+&lt;h3 id="打印服务">打印服务&lt;/h3>
+&lt;ul>
+&lt;li>如有与研究相关的少量打印需求，可使用远程打印服务。具体教程（建设中；暂时询问老师）&lt;/li>
+&lt;li>大量打印（如研究问卷）请使用打印店服务并走报销程序&lt;/li>
+&lt;/ul>
 &lt;h3 id="课程资料测试">课程资料（测试）&lt;/h3>
 &lt;ul>
 &lt;li>&lt;a href="https://www.linwz.com/resources/statistics/index.html">统计&lt;/a>&lt;/li>
@@ -465,7 +470,7 @@ console.log('code block');
 &lt;p>Wowchemy supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> format for interactive charts.&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>line-chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-761529843" class="chart">&lt;/div>
+&lt;div id="chart-154732689" class="chart">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -474,7 +479,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./line-chart.json", function(chart) {
-Plotly.plot('chart-761529843', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-154732689', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
