@@ -211,80 +211,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;h2 id="import-the-notebooks-into-your-site">Import the notebooks into your site&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">pipx install academic
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">academic import &lt;span class="s1">&amp;#39;notebooks/**.ipynb&amp;#39;&lt;/span> content/post/ --verbose
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The notebooks will be published to the folder you specify above. In this case, they will be published to your &lt;code>content/post/&lt;/code> folder.&lt;/p></description></item><item><title>Blog with Jupyter Notebooks!</title><link>https://www.linwz.com/resources/print/</link><pubDate>Sat, 04 Nov 2023 00:00:00 +0000</pubDate><guid>https://www.linwz.com/resources/print/</guid><description>&lt;p>背景知识：打印机目前位于洁琼楼220，打印前提前跟老师说明。&lt;/p>
-&lt;h2 id="使用前必读">使用前必读&lt;/h2>
-&lt;ul>
-&lt;li>
-&lt;p>打印机出问题就不要使用，&lt;strong>不要&lt;/strong>试图维修、切断电源、重启、拔插任何线等任何操作。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>本文为使用window 11电脑进行打印机无线连接步骤，只允许无线连接使用，&lt;strong>不允许&lt;/strong>拔下usb连接线连到自己的电脑上等其他操作。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>使用linux电脑的可以用cups添加，操作类似，驱动选择generic pcl driver即可，或找老师索要ppd文件。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Mac电脑请自行摸索。&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;h3 id="1打开设置">1.打开设置&lt;/h3>
-&lt;ul>
-&lt;li>点击添加按钮，等一会。&lt;/li>
-&lt;li>出现手动添加选项后，点击。&lt;/li>
-&lt;/ul>
-&lt;p>
-&lt;figure >
-&lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img alt="第一步" srcset="
-/resources/print/step1_hu0128c0882ef13b0893b8d573667ddb59_77549_82724c821b8496fc9932a538e27f27e5.webp 400w,
-/resources/print/step1_hu0128c0882ef13b0893b8d573667ddb59_77549_80eaa1dc22e13aaeeb228936d2c0db32.webp 760w,
-/resources/print/step1_hu0128c0882ef13b0893b8d573667ddb59_77549_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://www.linwz.com/resources/print/step1_hu0128c0882ef13b0893b8d573667ddb59_77549_82724c821b8496fc9932a538e27f27e5.webp"
-width="760"
-height="435"
-loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;/figure>
-&lt;/p>
-&lt;h3 id="2输入打印机网址">2.输入打印机网址&lt;/h3>
-&lt;ul>
-&lt;li>网址请向老师索要。&lt;/li>
-&lt;li>点击下一页。&lt;/li>
-&lt;/ul>
-&lt;p>
-&lt;figure >
-&lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img alt="第二步" srcset="
-/resources/print/step2_hua123ee2b24d683e2a99017794b61bd9c_100829_4a9eb33c396068f4323131286e02c06b.webp 400w,
-/resources/print/step2_hua123ee2b24d683e2a99017794b61bd9c_100829_a1d0cf5f3e076a3c6f812ec5fddaf682.webp 760w,
-/resources/print/step2_hua123ee2b24d683e2a99017794b61bd9c_100829_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://www.linwz.com/resources/print/step2_hua123ee2b24d683e2a99017794b61bd9c_100829_4a9eb33c396068f4323131286e02c06b.webp"
-width="689"
-height="520"
-loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;/figure>
-&lt;/p>
-&lt;h3 id="3添加驱动">3.添加驱动&lt;/h3>
-&lt;ul>
-&lt;li>先点击Windows 更新按钮，这步视网速需要等几分钟，不要着急。&lt;/li>
-&lt;li>更新完成后在左边厂商找到lenovo&lt;/li>
-&lt;li>右边型号选择LJ3650DN&lt;/li>
-&lt;li>点击确定，这里也会需要等一下，不要着急。&lt;/li>
-&lt;li>以上等待时间如果过长（超过十几分钟），可以视情况关掉窗口重新再来。&lt;/li>
-&lt;/ul>
-&lt;p>
-&lt;figure >
-&lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img alt="第三步" srcset="
-/resources/print/step3_hu32d0f949ab4aac9aa99483a700b09057_96835_abd1d665c582bf7bee6d4e65d2e58da4.webp 400w,
-/resources/print/step3_hu32d0f949ab4aac9aa99483a700b09057_96835_175db3c07337d966f23a61604bbfcf17.webp 760w,
-/resources/print/step3_hu32d0f949ab4aac9aa99483a700b09057_96835_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://www.linwz.com/resources/print/step3_hu32d0f949ab4aac9aa99483a700b09057_96835_abd1d665c582bf7bee6d4e65d2e58da4.webp"
-width="666"
-height="608"
-loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;/figure>
-&lt;/p>
-&lt;h3 id="4-完成以上步骤没提到的就是点下一页即可直接选择刚刚添加的打印机打印">4. 完成以上步骤（没提到的就是点下一页），即可直接选择刚刚添加的打印机打印。&lt;/h3></description></item><item><title>A mechanism and solution study on the effects of "group moral credit" on moral cognition and behaviors “群体道德信用”影响道德认知与行为的机制及对策研究</title><link>https://www.linwz.com/project/a-mechanism-and-solution-study-on-the-effects-of-group-moral-credit-on-moral-cognition-and-behaviors-%E7%BE%A4%E4%BD%93%E9%81%93%E5%BE%B7%E4%BF%A1%E7%94%A8%E5%BD%B1%E5%93%8D%E9%81%93%E5%BE%B7%E8%AE%A4%E7%9F%A5%E4%B8%8E%E8%A1%8C%E4%B8%BA%E7%9A%84%E6%9C%BA%E5%88%B6%E5%8F%8A%E5%AF%B9%E7%AD%96%E7%A0%94%E7%A9%B6/</link><pubDate>Wed, 19 Oct 2022 08:10:39 +0000</pubDate><guid>https://www.linwz.com/project/a-mechanism-and-solution-study-on-the-effects-of-group-moral-credit-on-moral-cognition-and-behaviors-%E7%BE%A4%E4%BD%93%E9%81%93%E5%BE%B7%E4%BF%A1%E7%94%A8%E5%BD%B1%E5%93%8D%E9%81%93%E5%BE%B7%E8%AE%A4%E7%9F%A5%E4%B8%8E%E8%A1%8C%E4%B8%BA%E7%9A%84%E6%9C%BA%E5%88%B6%E5%8F%8A%E5%AF%B9%E7%AD%96%E7%A0%94%E7%A9%B6/</guid><description>&lt;p>2022年度江西省社会科学基金青年项目&lt;/p></description></item><item><title>A mechanism study of humility suppressing inter-group conflicts 谦逊抑制群际冲突的路径研究</title><link>https://www.linwz.com/project/a-mechanism-study-of-humility-suppressing-inter-group-conflicts-%E8%B0%A6%E9%80%8A%E6%8A%91%E5%88%B6%E7%BE%A4%E9%99%85%E5%86%B2%E7%AA%81%E7%9A%84%E8%B7%AF%E5%BE%84%E7%A0%94%E7%A9%B6/</link><pubDate>Wed, 28 Sep 2022 09:34:38 +0000</pubDate><guid>https://www.linwz.com/project/a-mechanism-study-of-humility-suppressing-inter-group-conflicts-%E8%B0%A6%E9%80%8A%E6%8A%91%E5%88%B6%E7%BE%A4%E9%99%85%E5%86%B2%E7%AA%81%E7%9A%84%E8%B7%AF%E5%BE%84%E7%A0%94%E7%A9%B6/</guid><description>&lt;p>2022年度教育部人文社会科学研究青年基金&lt;/p></description></item><item><title>Humble educators promoting prosocial behaviors and value orientation: A mechanism study 教育者谦逊品格促进学生亲社会行为及价值观的机制研究</title><link>https://www.linwz.com/project/humble-educators-promoting-prosocial-behaviors-and-value-orientation-a-mechanism-study-%E6%95%99%E8%82%B2%E8%80%85%E8%B0%A6%E9%80%8A%E5%93%81%E6%A0%BC%E4%BF%83%E8%BF%9B%E5%AD%A6%E7%94%9F%E4%BA%B2%E7%A4%BE%E4%BC%9A%E8%A1%8C%E4%B8%BA%E5%8F%8A%E4%BB%B7%E5%80%BC%E8%A7%82%E7%9A%84%E6%9C%BA%E5%88%B6%E7%A0%94%E7%A9%B6/</link><pubDate>Wed, 28 Sep 2022 08:47:43 +0000</pubDate><guid>https://www.linwz.com/project/humble-educators-promoting-prosocial-behaviors-and-value-orientation-a-mechanism-study-%E6%95%99%E8%82%B2%E8%80%85%E8%B0%A6%E9%80%8A%E5%93%81%E6%A0%BC%E4%BF%83%E8%BF%9B%E5%AD%A6%E7%94%9F%E4%BA%B2%E7%A4%BE%E4%BC%9A%E8%A1%8C%E4%B8%BA%E5%8F%8A%E4%BB%B7%E5%80%BC%E8%A7%82%E7%9A%84%E6%9C%BA%E5%88%B6%E7%A0%94%E7%A9%B6/</guid><description>&lt;p>江西省教育科学”十四五“规划2022年度课题&lt;/p></description></item><item><title>How social support predicts anxiety among university students during COVID-19 control phase: Mediating roles of self-esteem and resilienceHow social support predicts anxiety among university students during COVID-19 control phase: Mediating roles of self-esteem and resilience</title><link>https://www.linwz.com/publication/how-social-support-predicts-anxiety-among-university-students-during-covid-19-control-phase-mediating-roles-of-self-esteem-and-resiliencehow-social-support-predicts-anxiety-among-university-students-during-covid-19-control-phase-mediating-roles-of-self/</link><pubDate>Mon, 20 Jun 2022 06:36:08 +0000</pubDate><guid>https://www.linwz.com/publication/how-social-support-predicts-anxiety-among-university-students-during-covid-19-control-phase-mediating-roles-of-self-esteem-and-resiliencehow-social-support-predicts-anxiety-among-university-students-during-covid-19-control-phase-mediating-roles-of-self/</guid><description>&lt;p>Full text can be retrieved from: &lt;a href="https://spssi.onlinelibrary.wiley.com/doi/10.1111/asap.12314" target="_blank" rel="noopener">https://spssi.onlinelibrary.wiley.com/doi/10.1111/asap.12314&lt;/a>&lt;/p></description></item><item><title>Contents</title><link>https://www.linwz.com/resources/statistics/contents/</link><pubDate>Wed, 13 Apr 2022 00:00:00 +0000</pubDate><guid>https://www.linwz.com/resources/statistics/contents/</guid><description>&lt;h3 id="测试">测试&lt;/h3>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The notebooks will be published to the folder you specify above. In this case, they will be published to your &lt;code>content/post/&lt;/code> folder.&lt;/p></description></item><item><title>A mechanism and solution study on the effects of "group moral credit" on moral cognition and behaviors “群体道德信用”影响道德认知与行为的机制及对策研究</title><link>https://www.linwz.com/project/a-mechanism-and-solution-study-on-the-effects-of-group-moral-credit-on-moral-cognition-and-behaviors-%E7%BE%A4%E4%BD%93%E9%81%93%E5%BE%B7%E4%BF%A1%E7%94%A8%E5%BD%B1%E5%93%8D%E9%81%93%E5%BE%B7%E8%AE%A4%E7%9F%A5%E4%B8%8E%E8%A1%8C%E4%B8%BA%E7%9A%84%E6%9C%BA%E5%88%B6%E5%8F%8A%E5%AF%B9%E7%AD%96%E7%A0%94%E7%A9%B6/</link><pubDate>Wed, 19 Oct 2022 08:10:39 +0000</pubDate><guid>https://www.linwz.com/project/a-mechanism-and-solution-study-on-the-effects-of-group-moral-credit-on-moral-cognition-and-behaviors-%E7%BE%A4%E4%BD%93%E9%81%93%E5%BE%B7%E4%BF%A1%E7%94%A8%E5%BD%B1%E5%93%8D%E9%81%93%E5%BE%B7%E8%AE%A4%E7%9F%A5%E4%B8%8E%E8%A1%8C%E4%B8%BA%E7%9A%84%E6%9C%BA%E5%88%B6%E5%8F%8A%E5%AF%B9%E7%AD%96%E7%A0%94%E7%A9%B6/</guid><description>&lt;p>2022年度江西省社会科学基金青年项目&lt;/p></description></item><item><title>A mechanism study of humility suppressing inter-group conflicts 谦逊抑制群际冲突的路径研究</title><link>https://www.linwz.com/project/a-mechanism-study-of-humility-suppressing-inter-group-conflicts-%E8%B0%A6%E9%80%8A%E6%8A%91%E5%88%B6%E7%BE%A4%E9%99%85%E5%86%B2%E7%AA%81%E7%9A%84%E8%B7%AF%E5%BE%84%E7%A0%94%E7%A9%B6/</link><pubDate>Wed, 28 Sep 2022 09:34:38 +0000</pubDate><guid>https://www.linwz.com/project/a-mechanism-study-of-humility-suppressing-inter-group-conflicts-%E8%B0%A6%E9%80%8A%E6%8A%91%E5%88%B6%E7%BE%A4%E9%99%85%E5%86%B2%E7%AA%81%E7%9A%84%E8%B7%AF%E5%BE%84%E7%A0%94%E7%A9%B6/</guid><description>&lt;p>2022年度教育部人文社会科学研究青年基金&lt;/p></description></item><item><title>Humble educators promoting prosocial behaviors and value orientation: A mechanism study 教育者谦逊品格促进学生亲社会行为及价值观的机制研究</title><link>https://www.linwz.com/project/humble-educators-promoting-prosocial-behaviors-and-value-orientation-a-mechanism-study-%E6%95%99%E8%82%B2%E8%80%85%E8%B0%A6%E9%80%8A%E5%93%81%E6%A0%BC%E4%BF%83%E8%BF%9B%E5%AD%A6%E7%94%9F%E4%BA%B2%E7%A4%BE%E4%BC%9A%E8%A1%8C%E4%B8%BA%E5%8F%8A%E4%BB%B7%E5%80%BC%E8%A7%82%E7%9A%84%E6%9C%BA%E5%88%B6%E7%A0%94%E7%A9%B6/</link><pubDate>Wed, 28 Sep 2022 08:47:43 +0000</pubDate><guid>https://www.linwz.com/project/humble-educators-promoting-prosocial-behaviors-and-value-orientation-a-mechanism-study-%E6%95%99%E8%82%B2%E8%80%85%E8%B0%A6%E9%80%8A%E5%93%81%E6%A0%BC%E4%BF%83%E8%BF%9B%E5%AD%A6%E7%94%9F%E4%BA%B2%E7%A4%BE%E4%BC%9A%E8%A1%8C%E4%B8%BA%E5%8F%8A%E4%BB%B7%E5%80%BC%E8%A7%82%E7%9A%84%E6%9C%BA%E5%88%B6%E7%A0%94%E7%A9%B6/</guid><description>&lt;p>江西省教育科学”十四五“规划2022年度课题&lt;/p></description></item><item><title>How social support predicts anxiety among university students during COVID-19 control phase: Mediating roles of self-esteem and resilienceHow social support predicts anxiety among university students during COVID-19 control phase: Mediating roles of self-esteem and resilience</title><link>https://www.linwz.com/publication/how-social-support-predicts-anxiety-among-university-students-during-covid-19-control-phase-mediating-roles-of-self-esteem-and-resiliencehow-social-support-predicts-anxiety-among-university-students-during-covid-19-control-phase-mediating-roles-of-self/</link><pubDate>Mon, 20 Jun 2022 06:36:08 +0000</pubDate><guid>https://www.linwz.com/publication/how-social-support-predicts-anxiety-among-university-students-during-covid-19-control-phase-mediating-roles-of-self-esteem-and-resiliencehow-social-support-predicts-anxiety-among-university-students-during-covid-19-control-phase-mediating-roles-of-self/</guid><description>&lt;p>Full text can be retrieved from: &lt;a href="https://spssi.onlinelibrary.wiley.com/doi/10.1111/asap.12314" target="_blank" rel="noopener">https://spssi.onlinelibrary.wiley.com/doi/10.1111/asap.12314&lt;/a>&lt;/p></description></item><item><title>Contents</title><link>https://www.linwz.com/resources/statistics/contents/</link><pubDate>Wed, 13 Apr 2022 00:00:00 +0000</pubDate><guid>https://www.linwz.com/resources/statistics/contents/</guid><description>&lt;h3 id="测试">测试&lt;/h3>
 &lt;p>&lt;a href="https://www.linwz.com/resources/">第一章&lt;/a>&lt;/p></description></item><item><title>加入我们</title><link>https://www.linwz.com/joinus/</link><pubDate>Wed, 13 Apr 2022 00:00:00 +0000</pubDate><guid>https://www.linwz.com/joinus/</guid><description>&lt;p>本实验室仅建议对学术有兴趣的研究生与本科生在&lt;em>慎重考虑&lt;/em>后加入团队。&lt;/p>
 &lt;p>实验室线下地点：江西师范大学&lt;/p>
 &lt;p>联系邮箱： &lt;a href="lin.wenzheng@aliyun.com">lin.wenzheng@aliyun.com&lt;/a>&lt;/p>
@@ -543,7 +470,7 @@ console.log('code block');
 &lt;p>Wowchemy supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> format for interactive charts.&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>line-chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-928467351" class="chart">&lt;/div>
+&lt;div id="chart-341987526" class="chart">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -552,7 +479,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./line-chart.json", function(chart) {
-Plotly.plot('chart-928467351', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-341987526', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
