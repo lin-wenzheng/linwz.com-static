@@ -1,4 +1,56 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts | 社会认知与人格实验室|林闻正</title><link>https://www.linwz.com/post/</link><atom:link href="https://www.linwz.com/post/index.xml" rel="self" type="application/rss+xml"/><description>Posts</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 25 Mar 2025 00:00:00 +0000</lastBuildDate><image><url>https://www.linwz.com/media/icon_hu75f3c8a8dfeb511f4db73a322318d1ea_1517863_512x512_fill_lanczos_center_3.png</url><title>Posts</title><link>https://www.linwz.com/post/</link></image><item><title>CGSS Presentation</title><link>https://www.linwz.com/post/cgss/</link><pubDate>Sat, 29 Jun 2024 19:36:23 +0000</pubDate><guid>https://www.linwz.com/post/cgss/</guid><description>&lt;p>&lt;a href="https://www.linwz.com/rmd/Data_report.html" target="_blank">Slides&lt;/a>&lt;/p></description></item><item><title>Humility Shaping social judgment</title><link>https://www.linwz.com/post/dissertation/</link><pubDate>Sun, 05 May 2024 00:00:00 +0000</pubDate><guid>https://www.linwz.com/post/dissertation/</guid><description>&lt;script type="text/javascript" src="https://www.linwz.com//js/pdf-js/build/pdf.js">&lt;/script>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts | 社会认知与人格实验室|林闻正</title><link>https://www.linwz.com/post/</link><atom:link href="https://www.linwz.com/post/index.xml" rel="self" type="application/rss+xml"/><description>Posts</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 25 Mar 2025 00:00:00 +0000</lastBuildDate><image><url>https://www.linwz.com/media/icon_hu75f3c8a8dfeb511f4db73a322318d1ea_1517863_512x512_fill_lanczos_center_3.png</url><title>Posts</title><link>https://www.linwz.com/post/</link></image><item><title>远程打印教程</title><link>https://www.linwz.com/post/test/</link><pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate><guid>https://www.linwz.com/post/test/</guid><description>&lt;p>背景知识：打印机目前位于洁琼楼220，打印前提前跟老师说明。&lt;/p>
+&lt;h2 id="使用前必读">使用前必读&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>打印机出问题就不要使用，&lt;strong>不要&lt;/strong>试图维修、切断电源、重启、拔插任何线等任何操作。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>本文为使用window 11电脑进行打印机无线连接步骤，只允许无线连接使用，&lt;strong>不允许&lt;/strong>拔下usb连接线连到自己的电脑上等其他操作。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>使用linux电脑的可以用cups添加，操作类似，驱动选择generic pcl driver即可，或找老师索要ppd文件。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Mac电脑请自行摸索。&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="1打开设置">1.打开设置&lt;/h4>
+&lt;ul>
+&lt;li>点击添加按钮，等一会。&lt;/li>
+&lt;li>出现手动添加选项后，点击。&lt;/li>
+&lt;/ul>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="step1.png" alt="第一步" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h4 id="2输入打印机网址">2.输入打印机网址&lt;/h4>
+&lt;ul>
+&lt;li>网址请向老师索要。&lt;/li>
+&lt;li>点击下一页。&lt;/li>
+&lt;/ul>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="step2.png" alt="第二步" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h4 id="3添加驱动">3.添加驱动&lt;/h4>
+&lt;ul>
+&lt;li>先点击Windows 更新按钮，这步视网速需要等几分钟，不要着急。&lt;/li>
+&lt;li>更新完成后在左边厂商找到lenovo&lt;/li>
+&lt;li>右边型号选择LJ3650DN&lt;/li>
+&lt;li>点击确定，这里也会需要等一下，不要着急。&lt;/li>
+&lt;li>以上等待时间如果过长（超过十几分钟），可以视情况关掉窗口重新再来。&lt;/li>
+&lt;/ul>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="step3.png" alt="第三步" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h4 id="4-完成以上步骤没提到的就是点下一页即可直接选择刚刚添加的打印机打印">4. 完成以上步骤（没提到的就是点下一页），即可直接选择刚刚添加的打印机打印。&lt;/h4></description></item><item><title>CGSS Presentation</title><link>https://www.linwz.com/post/cgss/</link><pubDate>Sat, 29 Jun 2024 19:36:23 +0000</pubDate><guid>https://www.linwz.com/post/cgss/</guid><description>&lt;p>&lt;a href="https://www.linwz.com/rmd/Data_report.html" target="_blank">Slides&lt;/a>&lt;/p></description></item><item><title>Humility Shaping social judgment</title><link>https://www.linwz.com/post/dissertation/</link><pubDate>Sun, 05 May 2024 00:00:00 +0000</pubDate><guid>https://www.linwz.com/post/dissertation/</guid><description>&lt;script type="text/javascript" src="https://www.linwz.com//js/pdf-js/build/pdf.js">&lt;/script>
 &lt;style>
 #embed-pdf-container {
 position: relative;
@@ -347,7 +399,7 @@ console.log('code block');
 &lt;p>Wowchemy supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> format for interactive charts.&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>line-chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-485296371" class="chart">&lt;/div>
+&lt;div id="chart-857293614" class="chart">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -356,7 +408,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./line-chart.json", function(chart) {
-Plotly.plot('chart-485296371', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-857293614', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
